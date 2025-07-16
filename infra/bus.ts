@@ -1,5 +1,5 @@
 import { realtimeNotifications } from "./backend"
-import { appTable, billingTable } from "./database"
+import { appTable } from "./database"
 import { emailsBus } from "./email"
 import { allSecrets } from "./secret"
 import { customerFilesBucket } from "./storage"
