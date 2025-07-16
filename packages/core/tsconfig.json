@@ -1,0 +1,10 @@
+{
+  "extends": "@tsconfig/node22/tsconfig.json",
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "isolatedModules": true,
+  },
+  "exclude": ["node_modules", "**/node_modules"]
+}

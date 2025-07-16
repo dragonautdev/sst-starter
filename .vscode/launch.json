@@ -1,0 +1,28 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Debug SST Dev",
+      "skipFiles": [
+        "<node_internals>/**",
+        "${workspaceFolder}/infra/*.ts",
+        "${workspaceFolder}/infra/*.js",
+        "${workspaceFolder}/packages/app/**/*.ts",
+        "${workspaceFolder}/packages/app/**/*.js"
+      ],
+      "runtimeVersion": "22",
+      "runtimeExecutable": "pnpm",
+      "cwd": "${workspaceFolder}",
+      "runtimeArgs": [
+        "sst",
+        "dev"
+      ],
+      "console": "integratedTerminal",
+    }
+  ]
+}

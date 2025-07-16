@@ -1,0 +1,27 @@
+{
+  "extends": "@tsconfig/node22/tsconfig.json",
+  //"include": ["src"],
+  "exclude": [
+    "dist",
+    "build",
+    "node_modules",
+    "**/node_modules"
+  ],
+  "compilerOptions": {
+    "allowJs": true,
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "module": "ESNext",
+    "moduleDetection": "force",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "jsx": "react-jsx",
+    "incremental": false,
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "target": "ES2022",
+  }
+}

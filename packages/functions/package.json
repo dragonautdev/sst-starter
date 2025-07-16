@@ -1,0 +1,29 @@
+{
+  "name": "@sst-starter/functions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.12.2",
+  "dependencies": {
+    "@aws-sdk/s3-request-presigner": "^3.842.0",
+    "@sst-starter/core": "link:../core",
+    "@openauthjs/openauth": "^0.4.3",
+    "@slack/web-api": "^7.9.3",
+    "@trpc/server": "^11.4.3",
+    "jose": "^6.0.11",
+    "luxon": "^3.6.1",
+    "mammoth": "^1.7.0",
+    "openai": "^5.8.2",
+    "sst": "^3.17.8",
+    "superjson": "^2.2.2"
+  },
+  "devDependencies": {
+    "@types/luxon": "^3.6.2"
+  }
+}

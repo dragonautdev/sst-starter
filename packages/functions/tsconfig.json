@@ -1,0 +1,12 @@
+{
+  "extends": "@tsconfig/node22/tsconfig.json",
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "skipLibCheck": true,
+    "lib": ["ES2022", "DOM"],
+    "jsx": "react-jsx",
+    "jsxImportSource": "hono/jsx"
+  },
+  "exclude": ["node_modules", "**/node_modules"]
+}
